@@ -77,12 +77,3 @@ The graph visually represents:
 The selected path is highlighted in green.
 
 ---
-
-## Dynamic Replanning
-
-The application demonstrates incremental replanning using D* Lite.
-
-For example, in the dynamic transition test, the initial path is:
-
-```text
-S → A → G

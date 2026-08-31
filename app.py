@@ -191,7 +191,7 @@ if (
 
 st.sidebar.divider()
 
-st.sidebar.subheader("🔄 Dynamic Environment")
+st.sidebar.subheader("Dynamic Environment")
 
 st.sidebar.caption(
     "Modify the environment and use Replan "

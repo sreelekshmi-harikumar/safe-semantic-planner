@@ -25,7 +25,7 @@ from experiments.test_cases import (
 
 st.set_page_config(
     page_title="Safe Semantic Planner",
-    page_icon="🧭",
+    page_icon="",
     layout="wide",
 )
 
@@ -34,7 +34,7 @@ st.set_page_config(
 # TITLE
 # ============================================================
 
-st.title("🧭 Safe Semantic Planner")
+st.title("Safe Semantic Planner")
 
 st.markdown(
     """
@@ -119,7 +119,7 @@ def get_transition_name(problem, transition):
 # SIDEBAR
 # ============================================================
 
-st.sidebar.header("⚙️ Planner Settings")
+st.sidebar.header("Planner Settings")
 
 
 selected_test = st.sidebar.selectbox(
@@ -295,7 +295,7 @@ selected_bad_ids = {
 # ADD NEW TRANSITION
 # ============================================================
 
-st.sidebar.markdown("**➕ Add New Transition**")
+st.sidebar.markdown("**Add New Transition**")
 
 
 state_names = {
@@ -348,7 +348,7 @@ add_reliability = st.sidebar.slider(
 
 
 add_transition_button = st.sidebar.button(
-    "➕ Add Transition",
+    "➕Add Transition",
     use_container_width=True,
 )
 
@@ -361,7 +361,7 @@ st.sidebar.divider()
 
 
 run_button = st.sidebar.button(
-    "🚀 Run Planner",
+    "Run Planner",
     use_container_width=True,
 )
 
@@ -764,7 +764,7 @@ left, right = st.columns(
 
 with left:
 
-    st.subheader("🗺️ State Space")
+    st.subheader("State Space")
 
     st.plotly_chart(
         draw_graph(
@@ -781,7 +781,7 @@ with left:
 
 with right:
 
-    st.subheader("📊 Planning Results")
+    st.subheader("Planning Results")
 
     if result is None:
 
@@ -845,7 +845,7 @@ with right:
             )
 
         st.markdown(
-            "### 🛣️ Selected Path"
+            "### Selected Path"
         )
 
         st.code(
@@ -873,7 +873,7 @@ with right:
 st.divider()
 
 st.subheader(
-    "📋 Current Planning Problem"
+    "Current Planning Problem"
 )
 
 
@@ -968,7 +968,7 @@ st.dataframe(
 
 st.divider()
 
-st.header("📈 Experimental Evaluation")
+st.header("Experimental Evaluation")
 
 st.markdown(
     """
@@ -992,7 +992,7 @@ st.markdown(
 # ------------------------------------------------------------
 
 if st.button(
-    "🧪 Run All Experiments",
+    "Run All Experiments",
     use_container_width=True,
 ):
 
@@ -1077,7 +1077,7 @@ if benchmark_results:
     # --------------------------------------------------------
 
     st.subheader(
-        "📋 Benchmark Results"
+        "Benchmark Results"
     )
 
     display_df = df.copy()
@@ -1112,7 +1112,7 @@ if benchmark_results:
     # --------------------------------------------------------
 
     st.subheader(
-        "💰 Path Cost"
+        "Path Cost"
     )
 
     cost_fig = go.Figure()
@@ -1145,7 +1145,7 @@ if benchmark_results:
     # --------------------------------------------------------
 
     st.subheader(
-        "⏱️ Planning Time"
+        "Planning Time"
     )
 
     time_fig = go.Figure()
@@ -1180,7 +1180,7 @@ if benchmark_results:
     # --------------------------------------------------------
 
     st.subheader(
-        "🔍 Search Effort"
+        "Search Effort"
     )
 
     explored_fig = go.Figure()
@@ -1213,7 +1213,7 @@ if benchmark_results:
     # --------------------------------------------------------
 
     st.subheader(
-        "🛡️ Minimum Safety Distance"
+        "Minimum Safety Distance"
     )
 
     safety_values = []
@@ -1260,7 +1260,7 @@ if benchmark_results:
     # --------------------------------------------------------
 
     st.subheader(
-        "🔐 Reliability"
+        "Reliability"
     )
 
     reliability_fig = go.Figure()
@@ -1296,7 +1296,7 @@ if benchmark_results:
     # --------------------------------------------------------
 
     st.subheader(
-        "✅ Evaluation Summary"
+        "Evaluation Summary"
     )
 
     if (
@@ -1331,7 +1331,7 @@ else:
 st.divider()
 
 st.subheader(
-    "⚡ Incremental Planner Status"
+    "Incremental Planner Status"
 )
 
 

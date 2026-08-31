@@ -5,7 +5,7 @@
 
 A **D\* Lite** based path planner, implemented in Python, that computes safe, cost-aware paths between states embedded in a finite Cartesian state space — while avoiding bad states and efficiently replanning when the environment changes.
 
-🔗 **Live demo:** [safe-semantic-planner.streamlit.app](https://safe-semantic-planner-bzkdux9hn34xd8nxhkxuxd.streamlit.app/)
+ **Live demo:** [safe-semantic-planner.streamlit.app](https://safe-semantic-planner-bzkdux9hn34xd8nxhkxuxd.streamlit.app/)
 
 ---
 
@@ -200,13 +200,6 @@ After any of the above, calling `planner.replan()` repairs the search incrementa
 - **Space complexity:** `O(n + E)` — one `g` and `rhs` value per state, plus storage for all states and transitions, plus the priority queue which holds at most `n` entries.
 
 
-#  Safe Semantic Planner
-
-A D* Lite based path planner implemented in Python for planning in a finite Cartesian state space.
-
-The planner finds safe and reliable paths while considering transition cost, safety, reliability, bad states, and dynamically changing environments.
-
-The deployed link: https://safe-semantic-planner-bzkdux9hn34xd8nxhkxuxd.streamlit.app/
 
 ---
 

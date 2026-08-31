@@ -99,6 +99,8 @@ safe-semantic-planner/
 ├── planner/
 │   ├── models.py                # State, Transition, PlanningProblem, PlanningResult
 │   └── dstar_lite.py             # DStarLite planner (plan, replan, update_* methods)
+    └──safety.py
+    └──heuristic.py              
 ├── experiments/
 │   ├── test_cases.py             # Builds the six assignment test-case problems
 │   └── benchmark.py               # run_benchmark(): runs all test cases, collects metrics

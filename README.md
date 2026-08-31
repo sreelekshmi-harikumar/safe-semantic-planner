@@ -205,5 +205,5 @@ After any of the above, calling `planner.replan()` repairs the search incrementa
 ## Author
 
 **Sreelekshmi Harikumar**
-Department of Computer Science and Engineering
+CSE - Third year 
 PCCST503 – Machine Learning, Assignment 1

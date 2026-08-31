@@ -1,8 +1,10 @@
-# 🧭 Safe Semantic Planner
+#  Safe Semantic Planner
 
 A D* Lite based path planner implemented in Python for planning in a finite Cartesian state space.
 
 The planner finds safe and reliable paths while considering transition cost, safety, reliability, bad states, and dynamically changing environments.
+
+The deployed link: https://safe-semantic-planner-bzkdux9hn34xd8nxhkxuxd.streamlit.app/
 
 ---
 

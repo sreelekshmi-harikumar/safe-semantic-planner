@@ -8,7 +8,7 @@ The deployed link: https://safe-semantic-planner-bzkdux9hn34xd8nxhkxuxd.streamli
 
 ---
 
-## 🚀 Features
+##  Features
 
 - D* Lite based path planning
 - Finite Cartesian state-space representation
@@ -27,7 +27,7 @@ The deployed link: https://safe-semantic-planner-bzkdux9hn34xd8nxhkxuxd.streamli
 
 ---
 
-## 🧠 Planning Approach
+##  Planning Approach
 
 The system uses the **D* Lite** algorithm to find paths from an initial state to a goal state.
 
@@ -48,7 +48,7 @@ When a transition, goal, or other planning condition changes, the planner can up
 
 ---
 
-## 🗺️ Interactive Streamlit Application
+## Interactive Streamlit Application
 
 The project includes an interactive web application built using Streamlit.
 
@@ -78,7 +78,7 @@ The selected path is highlighted in green.
 
 ---
 
-## 🔄 Dynamic Replanning
+## Dynamic Replanning
 
 The application demonstrates incremental replanning using D* Lite.
 

@@ -206,6 +206,6 @@ After any of the above, calling `planner.replan()` repairs the search incrementa
 ---
 ## Author
 
-**Sreelekshmi Harikumar**
-CSE - Third year 
-PCCST503 – Machine Learning, Assignment 1
+**Sreelekshmi Harikumar**  
+CSE - Third year  
+PCCST503 – Machine Learning, Assignment 1  

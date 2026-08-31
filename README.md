@@ -23,7 +23,6 @@ A **D\* Lite** based path planner, implemented in Python, that computes safe, co
 - [Experimental Evaluation](#experimental-evaluation)
 - [Dynamic Replanning](#dynamic-replanning)
 - [Complexity Analysis](#complexity-analysis)
-- [Bonus Work](#bonus-work)
 - [Author](#author)
 
 ---
@@ -200,16 +199,6 @@ After any of the above, calling `planner.replan()` repairs the search incrementa
 - **Time complexity:** Each priority-queue operation (insert/update/pop) costs `O(log n)` for `n` states. A full initial computation is `O(E log n)` for `E` transitions. An incremental update after a local change (goal move, single transition toggle, single bad-state change) only re-expands the states whose `g`/`rhs` values become inconsistent, which in practice is a small local neighborhood rather than the whole graph — asymptotically bounded by `O(k log n)` where `k` is the number of affected states, `k ≪ n` for local changes.
 - **Space complexity:** `O(n + E)` — one `g` and `rhs` value per state, plus storage for all states and transitions, plus the priority queue which holds at most `n` entries.
 
-## Bonus Work
-
-*(fill in based on what you actually implemented, e.g.)*
-
-- [ ] Multi-goal planning
-- [ ] Time-dependent transition availability
-- [x] Incremental replanning
-- [ ] Parallel search
-- [ ] Learning-based heuristic
-- [ ] Tested on a knowledge graph
 
 #  Safe Semantic Planner
 

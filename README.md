@@ -211,11 +211,6 @@ After any of the above, calling `planner.replan()` repairs the search incrementa
 - [ ] Learning-based heuristic
 - [ ] Tested on a knowledge graph
 
-## Author
-
-**Sreelekshmi Harikumar**
-Department of Computer Science and Engineering
-PCCST503 – Machine Learning, Assignment 1
 #  Safe Semantic Planner
 
 A D* Lite based path planner implemented in Python for planning in a finite Cartesian state space.
@@ -295,3 +290,8 @@ The graph visually represents:
 The selected path is highlighted in green.
 
 ---
+## Author
+
+**Sreelekshmi Harikumar**
+Department of Computer Science and Engineering
+PCCST503 – Machine Learning, Assignment 1
